@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-thin"
+        android:textColor="@android:color/black"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:text="This is a simple maths quiz. Click start to begin and  Results when complete. Good Luck."
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="maths"
+        android:text="start"
+        android:layout_marginBottom="36dp"/>
+
+
+</LinearLayout>
